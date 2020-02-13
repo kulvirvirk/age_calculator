@@ -13,10 +13,10 @@ today = str(today)
 current_year = int(today[0:4])
 
 # get user's input in YYYY format
-birth_year = input("What year you were born: ") 
+birth_year = input("What year you were born(YYYY): ") 
 
 # calculate current_age by subracting birth_year from current_year
 current_age = current_year - int(birth_year)
 
 #print age
-print('You are ' + str(current_age)+ ' years old!')
+print(f'You are {current_age} years old!')
